@@ -72,10 +72,10 @@ This project is built for **educational purposes only** as part of the Coding Sa
 ---
 
 ## 🙋 Author
-**[Your Name]**  
+Deepak Sharma
 Data Science Intern @ Coding Samurai  
-📧 [your.email@gmail.com]  
-🔗 [LinkedIn Profile Link]
+📧 [ds6739820@gmail.com]  
+🔗 [(https://www.linkedin.com/in/deepak-sharma-1875462ba/)]
 
 ---
 
