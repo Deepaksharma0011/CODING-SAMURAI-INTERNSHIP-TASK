@@ -1,82 +1,79 @@
-# 📈 TCS Stock Price Prediction using LSTM
-### Coding Samurai Data Science Internship - Level 3 Project
+# 🎓 Coding Samurai - Data Science Internship
+### Deepak Sharma | Data Science Intern
 
 ---
 
-## 📌 Project Overview
-This project predicts **TCS (Tata Consultancy Services)** stock prices using a **Long Short-Term Memory (LSTM)** deep learning model. Historical stock data is fetched from Yahoo Finance and used to forecast the next 30 days of stock prices.
+## 📌 About
+This repository contains all Data Science projects completed as part of the **Coding Samurai Internship Program**.
 
 ---
 
-## 🛠️ Technologies Used
-| Tool | Purpose |
-|------|---------|
-| Python | Programming Language |
-| Jupyter Notebook | Development Environment |
-| yfinance | Fetching Stock Data |
-| Pandas & NumPy | Data Manipulation |
-| Matplotlib | Data Visualization |
-| Scikit-learn | Preprocessing & Metrics |
-| TensorFlow / Keras | Building LSTM Model |
+## 🚀 Projects
 
 ---
 
-## 📊 Project Workflow
+### 📈 Project 1: TCS Stock Price Prediction using LSTM
+**Level:** Advanced | **Domain:** Time Series Forecasting
 
-1. **Data Collection** — TCS stock data (2019–2024) via yfinance
-2. **EDA** — Price trends, volume analysis, moving averages (50-day, 200-day)
-3. **Preprocessing** — MinMaxScaler normalization, sequence creation (60-day look-back)
-4. **Model Building** — 3-layer LSTM with Dropout layers
-5. **Training** — 50 epochs with Early Stopping
-6. **Evaluation** — RMSE, MAE, R² Score
-7. **Forecasting** — Next 30 days predicted
+**Description:**
+Predicts TCS (Tata Consultancy Services) stock prices using a deep learning LSTM model. Historical data is fetched from Yahoo Finance and used to forecast the next 30 days.
 
----
+**Tech Stack:**
+`Python` `TensorFlow` `Keras` `LSTM` `yfinance` `Pandas` `Matplotlib` `Scikit-learn`
 
-## 📁 Project Structure
-```
-CODING-SAMURAI-INTERNSHIP-TASK/
-│
-├── TCS_Stock_Prediction_LSTM.ipynb   # Main Jupyter Notebook
-└── README.md                          # Project Description
-```
+**Key Steps:**
+- Fetched 5 years of real TCS stock data using yfinance
+- Performed EDA — price trends, volume, moving averages
+- Built 3-layer LSTM model with Dropout
+- Evaluated using RMSE, MAE, R² Score
+- Forecasted next 30 days of stock prices
+
+📂 File: `TCS_Stock_Prediction_LSTM.ipynb`
 
 ---
 
-## 📈 Results
-- **Model:** LSTM (3 layers)
-- **Stock:** TCS.NS (NSE India)
-- **Data:** 5 Years (2019–2024)
-- **Look-back Window:** 60 Days
-- **Forecast:** 30 Days into future
+### 🐦 Project 2: Twitter Sentiment Analysis using NLP
+**Level:** Advanced | **Domain:** Natural Language Processing
+
+**Description:**
+Performs sentiment analysis on 74,000+ real Twitter tweets. Classifies tweets as Positive, Negative, or Neutral using TF-IDF vectorization and Logistic Regression.
+
+**Tech Stack:**
+`Python` `NLTK` `TextBlob` `TF-IDF` `Scikit-learn` `WordCloud` `Matplotlib` `Seaborn`
+
+**Key Steps:**
+- Loaded 74,682 real tweets from Twitter Entity Sentiment Dataset
+- Performed EDA — sentiment distribution, topic analysis
+- Cleaned text — removed URLs, mentions, hashtags, stopwords
+- Generated WordCloud for Positive & Negative tweets
+- Trained Logistic Regression classifier
+- Compared with TextBlob rule-based approach
+- Tested on custom tweets
+
+📂 File: `Twitter_Sentiment_Analysis.ipynb`
+
+> Dataset: [Kaggle - Twitter Entity Sentiment Analysis](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
 
 ---
 
-## ▶️ How to Run
+## 🛠️ How to Run
 
 ```bash
-# Install required libraries
-pip install yfinance pandas numpy matplotlib scikit-learn tensorflow keras jupyter
+# Install libraries
+pip install yfinance pandas numpy matplotlib seaborn scikit-learn nltk textblob wordcloud tensorflow keras jupyter
 
-# Launch Jupyter Notebook
+# Launch Jupyter
 jupyter notebook
-
-# Open TCS_Stock_Prediction_LSTM.ipynb and Run All cells
 ```
-
----
-
-## ⚠️ Disclaimer
-This project is built for **educational purposes only** as part of the Coding Samurai Internship. Stock price predictions are not financial advice.
 
 ---
 
 ## 🙋 Author
-Deepak Sharma
+**Deepak Sharma**  
 Data Science Intern @ Coding Samurai  
-📧 [ds6739820@gmail.com]  
-🔗 [(https://www.linkedin.com/in/deepak-sharma-1875462ba/)]
+🔗 [https://www.linkedin.com/in/deepak-sharma-1875462ba/]  
+📧 [ds6739820@@gmail.com]
 
 ---
 
-*#CodingSamurai #DataScience #LSTM #StockPrediction #Python*
+*#CodingSamurai #DataScience #LSTM #NLP #Python #MachineLearning #Internship*
